@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | Sandra Toyota</title>
+  <meta name="description" content="Privacy Policy for SandraToyota.com — how we collect, use, and protect your information."/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --red: #C8102E;
+      --red-dark: #a00d24;
+      --dark: #0f0f0f;
+      --grey-dark: #1a1a1a;
+      --grey-mid: #555555;
+      --grey-light: #e8e8e8;
+      --grey-bg: #f4f4f4;
+      --white: #ffffff;
+      --text: #1a1a1a;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--white); color: var(--text); overflow-x: hidden; }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(15,15,15,0.97); backdrop-filter: blur(10px);
+      height: 66px; padding: 0 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 400; color: var(--white); text-decoration: none; letter-spacing: 0.04em; }
+    .nav-logo span { color: var(--red); }
+    .nav-right { display: flex; align-items: center; gap: 36px; }
+    .nav-right a { font-size: 12px; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.3s; }
+    .nav-right a:hover { color: white; }
+    .nav-cta { padding: 10px 30px; background: var(--red) !important; color: white !important; font-weight: 500 !important; transition: background 0.3s !important; }
+    .nav-cta:hover { background: var(--red-dark) !important; }
+    /* PAGE HERO */
+    .page-hero {
+      padding-top: 66px; background: var(--grey-dark);
+      min-height: 220px; display: flex; align-items: flex-end;
+      position: relative; overflow: hidden;
+    }
+    .page-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(200,16,46,0.08) 0%, transparent 60%);
+    }
+    .hero-inner { position: relative; z-index: 2; padding: 48px 80px; }
+    .eyebrow { font-size: 10px; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; display: block; }
+    .page-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 4vw, 52px); font-weight: 300; color: var(--white); line-height: 1.1; }
+    .red-divider { height: 4px; background: var(--red); }
+    /* CONTENT */
+    .legal-content {
+      padding: 80px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .legal-updated {
+      font-size: 13px; color: var(--grey-mid); margin-bottom: 48px;
+      padding-bottom: 24px; border-bottom: 1px solid var(--grey-light);
+    }
+    .legal-content h2 {
+      font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 400;
+      color: var(--text); margin-top: 48px; margin-bottom: 16px; line-height: 1.2;
+    }
+    .legal-content h2:first-of-type { margin-top: 0; }
+    .legal-content p {
+      font-size: 15px; font-weight: 300; line-height: 1.85; color: #3a3a3a; margin-bottom: 16px;
+    }
+    .legal-content ul {
+      margin: 0 0 16px 24px;
+    }
+    .legal-content ul li {
+      font-size: 15px; font-weight: 300; line-height: 1.85; color: #3a3a3a; margin-bottom: 8px;
+    }
+    .legal-content a { color: var(--red); text-decoration: none; }
+    .legal-content a:hover { text-decoration: underline; }
+    .legal-highlight {
+      background: var(--grey-bg); border-left: 3px solid var(--red);
+      padding: 20px 24px; margin: 32px 0; font-size: 15px; font-weight: 300; line-height: 1.8; color: #3a3a3a;
+    }
+    /* FOOTER */
+    footer { background: var(--dark); padding: 60px 80px 32px; }
+    .footer-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 60px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.07); margin-bottom: 28px; }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 26px; color: white; text-decoration: none; display: block; margin-bottom: 14px; }
+    .footer-logo span { color: var(--red); }
+    .footer-desc { font-size: 13px; font-weight: 300; line-height: 1.75; color: rgba(255,255,255,0.3); }
+    .footer-col-head { font-size: 10px; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 20px; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.3s; }
+    .footer-links a:hover { color: white; }
+    .footer-contact-line { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.45); line-height: 1.9; }
+    .footer-contact-line a { color: var(--red); text-decoration: none; }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p, .footer-bottom a { font-size: 12px; color: rgba(255,255,255,0.18); text-decoration: none; }
+    .footer-bottom a:hover { color: rgba(255,255,255,0.5); }
+    .footer-legal { display: flex; gap: 20px; }
+    @media (max-width: 1024px) {
+      nav { padding: 0 28px; }
+      .nav-right a:not(.nav-cta) { display: none; }
+      .hero-inner { padding: 40px 28px; }
+      .legal-content { padding: 56px 28px; }
+      footer { padding: 48px 28px 24px; }
+      .footer-top { grid-template-columns: 1fr; gap: 36px; }
+    }
+    @media (max-width: 600px) {
+      .hero-inner { padding: 32px 20px; }
+      .legal-content { padding: 40px 20px; }
+      footer { padding: 40px 20px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="https://sandratoyota.com" class="nav-logo">Sandra<span>Toyota</span></a>
+    <div class="nav-right">
+      <a href="https://sandratoyota.com/about-sandra">About Sandra</a>
+      <a href="https://sandratoyota.com/#process">How It Works</a>
+      <a href="tel:+17863056671">(786) 305-6671</a>
+      <a href="https://link.sandratoyota.com/widget/booking/7cklGURXmfVziv8H7N91" class="nav-cta">Schedule a Visit</a>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Legal</span>
+      <h1>Privacy Policy</h1>
+    </div>
+  </div>
+  <div class="red-divider"></div>
+
+  <div class="legal-content">
+    <p class="legal-updated">Last updated: March 2026</p>
+
+    <div class="legal-highlight">
+      Your privacy matters. This policy explains what information we collect when you visit SandraToyota.com or contact us, how we use it, and how we protect it.
+    </div>
+
+    <h2>Who We Are</h2>
+    <p>This website is operated by Sandra Molina's team at Toyota of Hollywood, located at 1841 N State Road 7, Hollywood, FL 33021. References to "we," "us," or "our" in this policy refer to Sandra Molina and her team.</p>
+    <p>For questions about this policy, contact us at <a href="tel:+17863056671">(786) 305-6671</a>.</p>
+
+    <h2>Information We Collect</h2>
+    <p>We collect information you provide directly to us, including when you:</p>
+    <ul>
+      <li>Submit a contact or scheduling form on this website</li>
+      <li>Call or text Sandra directly</li>
+      <li>Interact with our chat widget</li>
+      <li>Request information about a specific vehicle</li>
+    </ul>
+    <p>This information may include your name, phone number, email address, and details about your vehicle inquiry.</p>
+    <p>We also collect certain technical information automatically, including your browser type, device type, IP address, and pages visited. This is standard web analytics data collected through cookies and similar technologies.</p>
+
+    <h2>How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Respond to your inquiries and schedule appointments</li>
+      <li>Send you vehicle pricing, availability, and deal information you requested</li>
+      <li>Follow up on your interest in purchasing or leasing a Toyota</li>
+      <li>Improve the content and usability of this website</li>
+    </ul>
+    <p>We do not sell your personal information to third parties. We do not share your information with unrelated businesses for their own marketing purposes.</p>
+
+    <h2>Third-Party Tools</h2>
+    <p>This website uses the following third-party services, which may collect data according to their own privacy policies:</p>
+    <ul>
+      <li><strong>GoHighLevel (LeadConnector)</strong> — used for our chat widget, appointment scheduling, and CRM. Their privacy policy can be found at <a href="https://www.gohighlevel.com/privacy-policy" target="_blank" rel="noopener">gohighlevel.com</a>.</li>
+      <li><strong>Google Fonts</strong> — used to load website typography. Google may collect limited technical data when fonts are loaded.</li>
+      <li><strong>Google Analytics</strong> (if applicable) — used to understand how visitors use this site.</li>
+    </ul>
+
+    <h2>Cookies</h2>
+    <p>This website uses cookies to remember your preferences and understand how visitors use the site. Cookies are small text files placed on your device. You can control cookies through your browser settings. Disabling cookies may affect some functionality of this site.</p>
+
+    <h2>Data Retention</h2>
+    <p>We retain your contact information for as long as is necessary to fulfill the purpose for which it was collected — typically for the duration of an active sales inquiry — unless a longer retention period is required or permitted by law.</p>
+
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Request access to the personal information we hold about you</li>
+      <li>Request correction of inaccurate information</li>
+      <li>Request that we stop contacting you at any time</li>
+    </ul>
+    <p>To exercise any of these rights, contact Sandra's team at <a href="tel:+17863056671">(786) 305-6671</a>.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>This website is not directed to children under 13 years of age. We do not knowingly collect personal information from children. If you believe we have inadvertently collected such information, please contact us immediately.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or how we handle your information:</p>
+    <ul>
+      <li>Phone: <a href="tel:+17863056671">(786) 305-6671</a></li>
+      <li>In person: Toyota of Hollywood, 1841 N State Road 7, Hollywood, FL 33021</li>
+    </ul>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div>
+        <a href="https://sandratoyota.com" class="footer-logo">Sandra<span>Toyota</span></a>
+        <p class="footer-desc">The #1 Toyota Pro in the Southeast USA. Serving South Florida with transparency, integrity, and 26+ years of genuine expertise at Toyota of Hollywood.</p>
+      </div>
+      <div>
+        <div class="footer-col-head">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="https://sandratoyota.com/about-sandra">About Sandra</a></li>
+          <li><a href="https://sandratoyota.com/#process">How It Works</a></li>
+          <li><a href="https://sandratoyota.com/#testimonials">Client Stories</a></li>
+          <li><a href="https://link.sandratoyota.com/widget/booking/7cklGURXmfVziv8H7N91">Schedule a Visit</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-head">Contact</div>
+        <p class="footer-contact-line">
+          Toyota of Hollywood<br>1841 N State Rd 7<br>Hollywood, FL 33021<br><br>
+          <a href="tel:+17863056671">(786) 305-6671</a>
+        </p>
+      </div>
+      <div>
+        <div class="footer-col-head">Areas We Serve</div>
+        <ul class="footer-links">
+          <li><a href="https://sandratoyota.com/toyota-dealer-hollywood-fl">Hollywood, FL</a></li>
+          <li><a href="https://sandratoyota.com/toyota-dealer-pembroke-pines-fl">Pembroke Pines, FL</a></li>
+          <li><a href="https://sandratoyota.com/toyota-dealer-miramar-fl">Miramar, FL</a></li>
+          <li><a href="https://sandratoyota.com/toyota-dealer-davie-cooper-city-fl">Davie &amp; Cooper City, FL</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sandra Toyota's Team &middot; All Rights Reserved</p>
+      <div class="footer-legal">
+        <a href="https://sandratoyota.com/privacy-policy">Privacy Policy</a>
+        <a href="https://sandratoyota.com/terms-and-conditions">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://beta.leadconnectorhq.com/loader.js"
+    data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"
+    data-widget-id="67f423c8a7c17b39868998ec">
+  </script>
+</body>
+</html>
