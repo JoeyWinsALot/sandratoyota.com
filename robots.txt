@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /pages/privacy-policy
+Disallow: /pages/terms-and-conditions
+
+Sitemap: https://sandratoyota.com/sitemap.xml
