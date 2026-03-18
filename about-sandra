@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Sandra Molina | #1 Toyota Pro in the Southeast USA | Toyota of Hollywood</title>
+  <meta name="description" content="Meet Sandra Molina — Fleet Manager at Toyota of Hollywood with 26+ years of experience and over 20,000 South Florida families served. Learn why she's the #1 Toyota Pro in the Southeast United States."/>
+  <meta name="keywords" content="Sandra Molina Toyota, Toyota fleet manager Hollywood FL, best Toyota salesperson South Florida, Toyota of Hollywood staff, buy Toyota Broward County"/>
+  <link rel="canonical" href="https://sandratoyota.com/about-sandra"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="About Sandra Molina | #1 Toyota Pro in the Southeast USA"/>
+  <meta property="og:description" content="26+ years. 20,000+ families. Meet the most trusted Toyota expert in South Florida."/>
+  <meta property="og:type" content="profile"/>
+  <meta property="og:url" content="https://sandratoyota.com/about-sandra"/>
+  <meta property="og:image" content="https://assets.cdn.filesafe.space/g4GYB6d9iPbCV6PQdlCd/media/68c8635c4f724e239645b858.jpeg"/>
+
+  <!-- Structured Data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sandra Molina",
+    "jobTitle": "Fleet Manager",
+    "worksFor": {
+      "@type": "AutoDealer",
+      "name": "Toyota of Hollywood",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1841 N State Rd 7",
+        "addressLocality": "Hollywood",
+        "addressRegion": "FL",
+        "postalCode": "33021"
+      },
+      "telephone": "+17863056671"
+    },
+    "description": "#1 Toyota Pro in the Southeast United States. 26+ years of experience. Over 20,000 South Florida families served.",
+    "knowsAbout": ["Toyota vehicles", "Fleet management", "Auto sales", "South Florida car market"],
+    "award": ["#1 Toyota Salesperson - Southeast United States", "Toyota Top 50 Professionals - Nationwide"]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --red: #C8102E;
+      --red-dark: #a00d24;
+      --dark: #0f0f0f;
+      --grey-dark: #1a1a1a;
+      --grey-mid: #555555;
+      --grey-light: #e8e8e8;
+      --grey-bg: #f4f4f4;
+      --white: #ffffff;
+      --text: #1a1a1a;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--white); color: var(--text); overflow-x: hidden; }
+
+    /* ═══ NAV ═══ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(15,15,15,0.97); backdrop-filter: blur(10px);
+      height: 66px; padding: 0 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 400; color: var(--white); text-decoration: none; letter-spacing: 0.04em; }
+    .nav-logo span { color: var(--red); }
+    .nav-right { display: flex; align-items: center; gap: 36px; }
+    .nav-right a { font-size: 12px; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.3s; }
+    .nav-right a:hover { color: white; }
+    .nav-cta { padding: 10px 30px; background: var(--red) !important; color: white !important; font-weight: 500 !important; transition: background 0.3s !important; }
+    .nav-cta:hover { background: var(--red-dark) !important; }
+
+    /* ═══ HERO ═══ */
+    .hero {
+      background: var(--grey-dark); padding: 66px 0 0; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse at 80% 40%, rgba(200,16,46,0.10) 0%, transparent 55%);
+    }
+    .hero-inner {
+      position: relative; z-index: 2;
+      display: grid; grid-template-columns: 1fr 1fr; min-height: 520px;
+    }
+    .hero-text {
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 60px 56px 60px 80px;
+    }
+    .hero-eyebrow {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--red); margin-bottom: 20px;
+      opacity: 0; animation: fadeUp 0.7s ease 0.1s forwards;
+    }
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(38px, 4.5vw, 64px); font-weight: 300; line-height: 1.1;
+      color: var(--white); margin-bottom: 24px;
+      opacity: 0; animation: fadeUp 0.7s ease 0.25s forwards;
+    }
+    .hero h1 em { font-style: italic; color: var(--red); }
+    .hero-subtitle {
+      font-size: 17px; font-weight: 300; line-height: 1.75;
+      color: rgba(255,255,255,0.52); max-width: 460px;
+      opacity: 0; animation: fadeUp 0.7s ease 0.4s forwards;
+    }
+    .hero-subtitle strong { color: rgba(255,255,255,0.9); font-weight: 400; }
+    .hero-photo {
+      position: relative; overflow: hidden;
+      opacity: 0; animation: fadeIn 1s ease 0.3s forwards;
+    }
+    .hero-photo::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 80px;
+      background: linear-gradient(to right, var(--grey-dark), transparent); z-index: 2;
+    }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center center; }
+
+    /* ═══ STATS BAR ═══ */
+    .stats-bar {
+      background: var(--grey-dark); border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex; padding: 0 80px;
+    }
+    .stat-item {
+      flex: 1; padding: 24px 24px 26px 0;
+      border-right: 1px solid rgba(255,255,255,0.06); margin-right: 24px;
+    }
+    .stat-item:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+    .stat-num { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 600; color: var(--red); line-height: 1; display: block; }
+    .stat-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-top: 5px; display: block; }
+
+    /* ═══ RED DIVIDER ═══ */
+    .red-divider { height: 4px; background: var(--red); }
+
+    /* ═══ BIO SECTION ═══ */
+    .bio-section { max-width: 800px; margin: 0 auto; padding: 80px 80px; }
+    .bio-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 3vw, 42px); font-weight: 300; line-height: 1.2;
+      color: var(--text); margin-bottom: 28px;
+    }
+    .bio-section h2 em { font-style: italic; color: var(--red); }
+    .bio-section h2::before {
+      content: ''; display: block; width: 36px; height: 3px;
+      background: var(--red); margin-bottom: 16px;
+    }
+    .bio-section p {
+      font-size: 17px; font-weight: 300; line-height: 1.85; color: #3a3a3a; margin-bottom: 24px;
+    }
+    .bio-section p strong { font-weight: 500; color: var(--text); }
+    .bio-section p.lead {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px; font-weight: 400; font-style: italic;
+      line-height: 1.6; color: var(--grey-dark);
+      border-left: 3px solid var(--red); padding-left: 24px;
+      margin-bottom: 36px;
+    }
+
+    /* ═══ AWARDS SECTION ═══ */
+    .awards-section {
+      background: var(--grey-bg); padding: 80px 80px;
+    }
+    .awards-inner { max-width: 1000px; margin: 0 auto; }
+    .awards-inner .eyebrow {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--red); margin-bottom: 20px; display: block;
+    }
+    .awards-inner h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 3vw, 42px); font-weight: 300; line-height: 1.2;
+      color: var(--text); margin-bottom: 48px;
+    }
+    .awards-inner h2 em { font-style: italic; color: var(--red); }
+    .awards-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px;
+    }
+    .award-item {
+      background: var(--white); padding: 36px 28px; text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .award-item:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+    .award-icon {
+      font-family: 'Cormorant Garamond', serif; font-size: 44px; font-weight: 600;
+      color: var(--red); line-height: 1; margin-bottom: 14px;
+    }
+    .award-item h3 {
+      font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 400;
+      color: var(--text); line-height: 1.3; margin-bottom: 8px;
+    }
+    .award-item p { font-size: 12px; color: var(--grey-mid); line-height: 1.5; }
+
+    /* ═══ PHILOSOPHY SECTION ═══ */
+    .philosophy-section {
+      display: grid; grid-template-columns: 1fr 1fr; background: var(--grey-dark);
+    }
+    .philosophy-text {
+      padding: 80px 72px; display: flex; flex-direction: column; justify-content: center;
+    }
+    .philosophy-text .eyebrow {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--red); margin-bottom: 20px; display: block;
+    }
+    .philosophy-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 3vw, 44px); font-weight: 300; line-height: 1.15;
+      color: var(--white); margin-bottom: 28px;
+    }
+    .philosophy-text h2 em { font-style: italic; color: var(--red); }
+    .philosophy-text p { font-size: 16px; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+    .philosophy-text p strong { color: rgba(255,255,255,0.9); font-weight: 400; }
+    .philosophy-values { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .value-tag {
+      padding: 8px 16px; border: 1px solid rgba(255,255,255,0.1);
+      font-size: 11px; font-weight: 400; color: rgba(255,255,255,0.5);
+      letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    .philosophy-visual {
+      background: var(--red); display: flex; align-items: center; justify-content: center;
+      padding: 60px; position: relative; overflow: hidden;
+    }
+    .philosophy-visual::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.08) 0%, transparent 60%);
+    }
+    .philosophy-quote {
+      position: relative; z-index: 2; text-align: center; max-width: 360px;
+    }
+    .philosophy-quote blockquote {
+      font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 300;
+      font-style: italic; color: white; line-height: 1.4; margin-bottom: 20px;
+    }
+    .philosophy-quote cite {
+      font-size: 12px; font-style: normal; font-weight: 500; letter-spacing: 0.15em;
+      text-transform: uppercase; color: rgba(255,255,255,0.7);
+    }
+
+    /* ═══ CTA ═══ */
+    .cta-section {
+      background: var(--red); padding: 100px 80px; position: relative; overflow: hidden;
+      display: flex; align-items: center; justify-content: center; text-align: center;
+    }
+    .cta-section::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 60%);
+    }
+    .cta-inner { position: relative; z-index: 2; max-width: 680px; }
+    .cta-section h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 4vw, 56px); font-weight: 300; line-height: 1.1; color: white; margin-bottom: 18px; }
+    .cta-section h2 em { font-style: italic; }
+    .cta-section p { font-size: 17px; font-weight: 300; color: rgba(255,255,255,0.72); margin-bottom: 40px; line-height: 1.65; }
+    .cta-btns { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .btn-white {
+      display: inline-block; padding: 17px 48px; background: white; color: var(--red);
+      font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+      text-decoration: none; transition: all 0.3s;
+    }
+    .btn-white:hover { background: var(--dark); color: white; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    .btn-white-outline {
+      display: inline-block; padding: 16px 44px; border: 1px solid rgba(255,255,255,0.38);
+      color: rgba(255,255,255,0.85); font-size: 12px; font-weight: 400; letter-spacing: 0.15em;
+      text-transform: uppercase; text-decoration: none; transition: all 0.3s;
+    }
+    .btn-white-outline:hover { border-color: white; color: white; }
+
+    /* ═══ FOOTER ═══ */
+    footer { background: var(--dark); padding: 60px 80px 32px; }
+    .footer-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 60px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.07); margin-bottom: 28px; }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 26px; color: white; text-decoration: none; display: block; margin-bottom: 14px; }
+    .footer-logo span { color: var(--red); }
+    .footer-desc { font-size: 13px; font-weight: 300; line-height: 1.75; color: rgba(255,255,255,0.3); }
+    .footer-col-head { font-size: 10px; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 20px; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.3s; }
+    .footer-links a:hover { color: white; }
+    .footer-contact-line { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.45); line-height: 1.9; }
+    .footer-contact-line a { color: var(--red); text-decoration: none; }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p, .footer-bottom a { font-size: 12px; color: rgba(255,255,255,0.18); text-decoration: none; }
+    .footer-bottom a:hover { color: rgba(255,255,255,0.5); }
+    .footer-legal { display: flex; gap: 20px; }
+
+    /* ═══ SCROLL REVEAL ═══ */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-d1 { transition-delay: 0.1s; }
+    .reveal-d2 { transition-delay: 0.2s; }
+
+    /* ═══ ANIMATIONS ═══ */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+    /* ═══ RESPONSIVE ═══ */
+    @media (max-width: 1024px) {
+      nav { padding: 0 28px; }
+      .nav-right a:not(.nav-cta) { display: none; }
+      .hero-inner { grid-template-columns: 1fr; min-height: auto; }
+      .hero-text { padding: 48px 28px 40px; }
+      .hero-photo { height: 340px; }
+      .hero-photo::before { display: none; }
+      .stats-bar { padding: 0 28px; flex-wrap: wrap; }
+      .stat-item { flex: 1 1 40%; padding: 18px 16px 18px 0; margin-right: 0; border-right: none; }
+      .stat-num { font-size: 30px; }
+      .bio-section { padding: 60px 28px; }
+      .awards-section { padding: 60px 28px; }
+      .awards-grid { grid-template-columns: 1fr 1fr; }
+      .philosophy-section { grid-template-columns: 1fr; }
+      .philosophy-text { padding: 60px 28px; }
+      .philosophy-visual { padding: 48px 28px; min-height: 280px; }
+      .cta-section { padding: 72px 28px; }
+      .cta-btns { flex-direction: column; align-items: center; }
+      footer { padding: 48px 28px 24px; }
+      .footer-top { grid-template-columns: 1fr; gap: 36px; }
+    }
+
+    @media (max-width: 600px) {
+      .hero-text { padding: 32px 20px 28px; }
+      .hero h1 { font-size: 32px; }
+      .hero-subtitle { font-size: 14px; }
+      .hero-photo { height: 260px; }
+      .stats-bar { padding: 0 20px; }
+      .stat-item { padding: 12px 8px 12px 0; }
+      .stat-num { font-size: 24px; }
+      .stat-label { font-size: 8px; }
+      .bio-section { padding: 48px 20px; }
+      .bio-section h2 { font-size: 26px; }
+      .bio-section p { font-size: 15px; }
+      .bio-section p.lead { font-size: 18px; }
+      .awards-section { padding: 48px 20px; }
+      .awards-grid { grid-template-columns: 1fr; }
+      .philosophy-text { padding: 48px 20px; }
+      .philosophy-visual { padding: 40px 20px; }
+      .philosophy-quote blockquote { font-size: 22px; }
+      .cta-section { padding: 56px 20px; }
+      .cta-section h2 { font-size: 28px; }
+      footer { padding: 40px 20px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="https://sandratoyota.com" class="nav-logo">Sandra<span>Toyota</span></a>
+    <div class="nav-right">
+      <a href="https://sandratoyota.com">Home</a>
+      <a href="https://sandratoyota.com/#process">How It Works</a>
+      <a href="tel:+17863056671">(786) 305-6671</a>
+      <a href="https://link.sandratoyota.com/widget/booking/7cklGURXmfVziv8H7N91" class="nav-cta">Schedule a Visit</a>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="hero-eyebrow">About Sandra Molina</span>
+        <h1>26 Years. 20,000 Families.<br><em>One Name They Trust.</em></h1>
+        <p class="hero-subtitle"><strong>Sandra Molina</strong> is the Fleet Manager at Toyota of Hollywood and the <strong>#1 Toyota Pro in the Southeast United States.</strong> She's spent over two decades doing one thing: making sure South Florida drivers get a fair deal from someone who genuinely cares.</p>
+      </div>
+      <div class="hero-photo">
+        <img src="https://assets.cdn.filesafe.space/g4GYB6d9iPbCV6PQdlCd/media/68c8635c4f724e239645b858.jpeg" alt="Sandra Molina and her team at Toyota of Hollywood holding an award"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ STATS BAR ═══ -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-num">26+</span>
+      <span class="stat-label">Years at Toyota of Hollywood</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">20K+</span>
+      <span class="stat-label">South Florida Families Served</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">#1</span>
+      <span class="stat-label">Toyota Pro — Southeast USA</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">Top 50</span>
+      <span class="stat-label">Toyota Professionals — Nationwide</span>
+    </div>
+  </div>
+
+  <div class="red-divider"></div>
+
+  <!-- ═══ BIO ═══ -->
+  <section class="bio-section">
+    <p class="lead reveal">I didn't plan on spending 26 years at one dealership. I planned on treating every customer like family — and then the years just happened.</p>
+
+    <h2 class="reveal">From Queens to <em>South Florida</em></h2>
+    <p class="reveal">I was born in Queens, New York. My parents came from the Dominican Republic, and it didn't take long for our family to figure out we were not built for cold weather. South Florida claimed me at 15. I grew up in Miami, married my childhood sweetheart, and raised two kids here.</p>
+    <p class="reveal">I joined Toyota of Hollywood in 1999 and stepped onto the sales floor at a time when the car industry was almost entirely male-dominated. I didn't have connections. I didn't have a fancy background. I had one thing: the belief that if I treated every single person the way I'd want to be treated, the results would speak for themselves.</p>
+    <p class="reveal">They did.</p>
+
+    <h2 class="reveal">Building a Career on <em>Integrity</em></h2>
+    <p class="reveal">For the majority of the past 20+ years, I've been the <strong>#1 Toyota salesperson at Toyota of Hollywood and across the entire Southeast United States.</strong> I've been named to Toyota's Top 50 Professionals nationwide. I've served over 20,000 South Florida families — from first-time buyers to business owners to parents buying their kid's first car.</p>
+    <p class="reveal">But what I'm most proud of isn't a ranking or a number. It's the thousands of people who trusted me enough to send their friends, their children, and their parents back to me. You don't refer someone you love to a person who took advantage of you. That kind of loyalty comes from one thing: integrity.</p>
+
+    <h2 class="reveal">Why I Became a <em>Fleet Manager</em></h2>
+    <p class="reveal">Most people don't know this option exists. A fleet manager is a senior-level position at a dealership, traditionally responsible for handling bulk vehicle sales — businesses, rental companies, government contracts. But over the years, smart individual buyers figured out they can request to work with a fleet manager directly, and when they do, the entire experience changes.</p>
+    <p class="reveal">As Fleet Manager, I don't operate on commission the same way a floor salesperson does. There's no incentive to stall. No reason to run back and forth to "check with the manager" — because I am the manager. I can give you the real number upfront, and I will. Every time.</p>
+
+    <h2 class="reveal">What It's Like Working <em>With Me</em></h2>
+    <p class="reveal">When you reach out, I'll ask about your life — how many people are in your family, how far you drive, what matters most to you. Then I'll tell you which Toyota genuinely fits. Not what's on special. Not what I need to move off the lot. The right car for your life.</p>
+    <p class="reveal">I'll verify real inventory before you drive over. I'll send you the full out-the-door price — taxes, fees, everything — before you arrive, so you can review it on your own time. When you get here, it's test drive, sign, and go. No pressure, no games, no regrets.</p>
+    <p class="reveal">That's not a marketing pitch. That's how I've done business for 26 years, and it's why I'll be here for 26 more.</p>
+  </section>
+
+  <!-- ═══ AWARDS ═══ -->
+  <section class="awards-section">
+    <div class="awards-inner">
+      <span class="eyebrow reveal">Recognition &amp; Awards</span>
+      <h2 class="reveal">A Career Defined by <em>Results.</em></h2>
+      <div class="awards-grid">
+        <div class="award-item reveal">
+          <div class="award-icon">#1</div>
+          <h3>Toyota Salesperson — Southeast USA</h3>
+          <p>Held for the majority of 20+ consecutive years</p>
+        </div>
+        <div class="award-item reveal reveal-d1">
+          <div class="award-icon">Top 50</div>
+          <h3>Toyota Professionals — Nationwide</h3>
+          <p>Named among the top 50 Toyota pros in the entire country</p>
+        </div>
+        <div class="award-item reveal reveal-d1">
+          <div class="award-icon">20K+</div>
+          <h3>Families Served</h3>
+          <p>Over 20,000 South Florida families have trusted Sandra with their purchase</p>
+        </div>
+        <div class="award-item reveal reveal-d2">
+          <div class="award-icon">26+</div>
+          <h3>Years at Toyota of Hollywood</h3>
+          <p>Part of the Craig Zinn Automotive Group since 1999</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PHILOSOPHY ═══ -->
+  <section class="philosophy-section">
+    <div class="philosophy-text">
+      <span class="eyebrow reveal">My Philosophy</span>
+      <h2 class="reveal">The Way Car Buying<br><em>Should Have Always Been.</em></h2>
+      <p class="reveal">I've watched this market for over two decades. I know what a fair deal looks like. I know what the games look like. And I've built my entire career on being the person who refuses to play them.</p>
+      <p class="reveal">South Florida is one of the most competitive car markets in the country. Inventory moves fast. Demand is high. Some dealers use that as cover to add fees, adjust prices, and pressure buyers into decisions they're not comfortable with. I do the opposite.</p>
+      <p class="reveal"><strong>Real inventory, verified before your visit. Real pricing, sent before you arrive. Real conversation with the person who has the authority to close.</strong> That's it. That's the whole approach.</p>
+      <div class="philosophy-values reveal">
+        <span class="value-tag">Transparency</span>
+        <span class="value-tag">No Pressure</span>
+        <span class="value-tag">Real Pricing</span>
+        <span class="value-tag">Verified Inventory</span>
+        <span class="value-tag">Direct Access</span>
+      </div>
+    </div>
+    <div class="philosophy-visual">
+      <div class="philosophy-quote">
+        <blockquote>"You don't refer someone you love to a person who took advantage of you."</blockquote>
+        <cite>— Sandra Molina</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="cta-inner reveal">
+      <h2>Ready to work with Sandra <em>directly?</em></h2>
+      <p>No pressure. No games. Just 26 years of expertise working in your favor. Schedule your visit or call Sandra today.</p>
+      <div class="cta-btns">
+        <a href="https://link.sandratoyota.com/widget/booking/7cklGURXmfVziv8H7N91" class="btn-white">Schedule Your VIP Visit</a>
+        <a href="tel:+17863056671" class="btn-white-outline">Call (786) 305-6671</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <a href="https://sandratoyota.com" class="footer-logo">Sandra<span>Toyota</span></a>
+        <p class="footer-desc">The #1 Toyota Pro in the Southeast USA. Serving South Florida with transparency, integrity, and 26+ years of genuine expertise at Toyota of Hollywood.</p>
+      </div>
+      <div>
+        <div class="footer-col-head">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="https://sandratoyota.com">Home</a></li>
+          <li><a href="https://sandratoyota.com/about-sandra">About Sandra</a></li>
+          <li><a href="https://sandratoyota.com/#process">How It Works</a></li>
+          <li><a href="https://link.sandratoyota.com/widget/booking/7cklGURXmfVziv8H7N91">Schedule a Visit</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-head">Contact</div>
+        <p class="footer-contact-line">
+          Toyota of Hollywood<br>1841 N State Rd 7<br>Hollywood, FL 33021<br><br>
+          <a href="tel:+17863056671">(786) 305-6671</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sandra Toyota's Team &middot; All Rights Reserved</p>
+      <div class="footer-legal">
+        <a href="https://sandratoyota.com/privacy-policy">Privacy Policy</a>
+        <a href="https://sandratoyota.com/terms-and-conditions">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var els = document.querySelectorAll('.reveal');
+      var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function(el) { obs.observe(el); });
+    })();
+  </script>
+
+  <script
+    src="https://beta.leadconnectorhq.com/loader.js"
+    data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"
+    data-widget-id="67f423c8a7c17b39868998ec">
+  </script>
+
+</body>
+</html>
